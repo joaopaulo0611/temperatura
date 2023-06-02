@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+</head>
+<body>
+    <h1>Página Principal</h1>
+    <button onclick="novaPg()">Nova Página</button><br><br>
+    <button onclick="novaGuia()">Nova Guia</button><br><br>
+    <button onclick="novaPg()">Assuntos</button><br><br>
+
+</body>
+</html>
+<script>
+    function novaPg(){
+        window.location.href = "temperatura.html"
+    }
+    function novaGuia(){
+        window.open("temperatura.html")
+    }
+    function novaPg(){
+        window.location.href = "sobre.html"
+    }
+</script>
